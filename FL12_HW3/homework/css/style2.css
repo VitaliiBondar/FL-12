@@ -1,0 +1,180 @@
+body {
+  font-family: "Fresca", sans-serif;
+  margin: 0;
+  background: #22242E;
+  box-sizing: border-box;
+  color: #fff; }
+
+.landing-logo {
+  display: flex; }
+  .landing-logo span {
+    font-weight: 600;
+    display: block;
+    font-size: 10px; }
+  .landing-logo p {
+    display: flex;
+    font-weight: 600;
+    margin: 5px 0 0 13px;
+    font-size: 24px;
+    flex-direction: column;
+    text-align: center;
+    line-height: 20px; }
+  .landing-logo img {
+    height: 44px;
+    width: 44px; }
+
+header {
+  padding-bottom: 173px;
+  padding-top: 19px;
+  border-bottom-right-radius: 50em 17em;
+  background: url("../img/m-h-night.jpg") center no-repeat;
+  background-size: cover; }
+
+.header-wrap, .footer .footer-wrap {
+  margin: 0 auto;
+  width: 79%; }
+  .header-wrap .header_heading, .footer .footer-wrap .header_heading {
+    margin: 1em 0 0 0;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 71px;
+    width: 40%;
+    line-height: 1em;
+    position: relative;
+    z-index: 1; }
+    .header-wrap .header_heading:after, .footer .footer-wrap .header_heading:after {
+      position: absolute;
+      content: '';
+      width: 304px;
+      height: 50px;
+      background-color: #FF4E34;
+      z-index: -1;
+      left: 0px;
+      bottom: 0px; }
+  .header-wrap .header_button, .footer .footer-wrap .header_button {
+    font-weight: 600;
+    background-color: #E3AC04;
+    text-align: center;
+    font-size: 16px;
+    border: inherit;
+    border-radius: 5px;
+    color: #fff;
+    padding: 17px 42px; }
+  .header-wrap .login, .footer .footer-wrap .login {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    margin: 0 0 0 150px;
+    color: #fff;
+    font-size: 20px; }
+  .header-wrap .header_text, .footer .footer-wrap .header_text {
+    font-size: 16px;
+    white-space: pre-line;
+    margin: 30px 0 55px; }
+
+main {
+  margin: 0 auto;
+  width: 64%; }
+  main .section_text {
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    font-size: 41px;
+    margin: 35px auto;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif; }
+    main .section_text:after {
+      position: absolute;
+      content: '';
+      width: 185px;
+      height: 50px;
+      background-color: #FF4E34;
+      z-index: -1;
+      left: 600px;
+      bottom: 8px; }
+  main .section_card {
+    background-color: #4B3F50;
+    display: flex;
+    width: 85%;
+    margin: 24px auto;
+    align-items: center;
+    padding: 19px;
+    border-radius: 5px; }
+    main .section_card .section_card_img {
+      border-radius: 5px;
+      width: 100%;
+      height: auto; }
+    main .section_card .section_card_right_container {
+      text-align: center; }
+      main .section_card .section_card_right_container .section_card_heading {
+        font-weight: 600;
+        color: #fff;
+        font-size: 24px;
+        font-family: 'Source Sans Pro', sans-serif; }
+      main .section_card .section_card_right_container .section_card_text {
+        font-family: "Fresca", sans-serif;
+        margin: 15px 90px;
+        text-align: justify;
+        color: #C0C3C4; }
+      main .section_card .section_card_right_container .section_link {
+        color: #C0C3C4;
+        margin-bottom: 5px; }
+  main .section_banner {
+    position: relative;
+    z-index: 2;
+    width: 97%;
+    margin: 147px auto -72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, #E2AB03, #902B53);
+    border-radius: 5px; }
+    main .section_banner .section_banner_text_wrap {
+      margin-left: 100px;
+      height: 144px;
+      padding-left: 60px; }
+      main .section_banner .section_banner_text_wrap .section_banner_heading {
+        position: relative;
+        z-index: 1;
+        font-weight: 700;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 30px;
+        color: #fff;
+        margin: 24px 0 0.5em 0; }
+        main .section_banner .section_banner_text_wrap .section_banner_heading:after {
+          position: absolute;
+          content: '';
+          width: 65px;
+          height: 50px;
+          background-color: #FF4E34;
+          z-index: -1;
+          left: 120px;
+          bottom: 0px; }
+      main .section_banner .section_banner_text_wrap .section_banner_text {
+        font-size: 16px;
+        color: #C0C3C4;
+        font-family: "Fresca", sans-serif; }
+    main .section_banner .section_banner_button {
+      font-weight: 600;
+      background-color: #E3AC04;
+      text-align: center;
+      font-size: 16px;
+      border: inherit;
+      border-radius: 5px;
+      color: #fff;
+      padding: 17px 42px;
+      margin-right: 10em; }
+
+.footer {
+  background: #4B3F50;
+  color: #C0C3C4; }
+  .footer .footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 110px 0 20px 0; }
+    .footer .footer-wrap .footer_text {
+      width: 20%;
+      font-size: 14px; }
+    .footer .footer-wrap .footer-cr {
+      font-size: 10px;
+      text-align: center; }
