@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+body, hr {
+    color: #777;
+}
+header {
+    background: url("../img/home-bg.jpg") top center / cover no-repeat;
+    height: 100vh;
+}
+.header-info {
+    text-align: center;
+}
+.header-info h1 {
+    font-size: 64px;
+    color: #ffffff;
+    padding-top: 410px;
+}
+.header-info h6 {
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin: 17px 0 50px 0;
+    color: #bfba55;
+}
+.nav-wrapper {
+    position: fixed;
+    display: flex;
+    top: 0;
+    height: 86px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+}
+.logo a {
+    color: #777;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-size: 19px;
+}
+nav a {
+    color: #777;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 14px;
+    padding: 0 20px;
+}
+nav a:hover {
+    color: #bfba55;
+}
+nav {
+    margin-left: 120px;
+}
+.btn {
+    width: 160px;
+    height: 44px;
+    border-radius: 22px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+main {
+    width: 910px;
+    margin: 0 auto;
+}
+.post {
+    margin: 80px 0;
+}
+
+.post img {
+    max-width: 100%;
+}
+.article {
+    margin: 40px 0;
+}
+.article h2 {
+    color: #000;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+.article p {
+    line-height: 26px;
+    font-size: 14px;
+    margin: 20px 0 35px 0;
+}
+.content {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.content img {
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+}
+.content p {
+    font-size: 13px;
+    padding: 0 20px;
+}
+.content span {
+    padding: 20px;
+}
+.post-btn {
+    margin-top: 45px;
+    width: 190px;
+    height: 50px;
+    border-radius: 25px;
+    color: #777;
+    font-size: 14px;
+    border: 1px solid #777;
+    font-weight: 700;
+}
+footer {
+    background-color: #000;
+    padding-top: 95px;
+    padding-bottom: 95px;
+    font-size: 13px;
+    line-height: 200%;
+}
+.footer-info {
+    width: 910px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer h2 {
+    color: #fff;
+    padding-bottom: 10px;
+}
+.footer-info div {
+    width: 45%;
+}
