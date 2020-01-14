@@ -22,7 +22,7 @@ function executeforEach(arr, callback) {
 // that callback function if you need. Reuse function from task 2.
 function mapArray(arr, callback){
     let result = [];
-    executeForEach(arr, function(elem){
+    executeforEach(arr, function(elem){
         result.push(callback(parseInt(elem)));
     });
     return result;
@@ -31,7 +31,7 @@ function mapArray(arr, callback){
 // from task 2.
 function filterArray(arr, callback){
     let result = [];
-    executeForEach(arr, function(elem){
+    executeforEach(arr, function(elem){
         if(callback(elem)){
             result.push(parseInt(elem));
         }
@@ -58,7 +58,7 @@ function makeListFromRange(arr) {
 //     That function should not change the original array. Reuse function from task 2.
 function getArrayOfKeys(arr, key) {
     let newArr = [];
-    executeForEach(arr, function(elem) {
+    executeforEach(arr, function(elem) {
         newArr.push(elem[key]);
     });
     return newArr;
