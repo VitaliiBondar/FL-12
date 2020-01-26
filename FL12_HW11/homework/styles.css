@@ -1,0 +1,33 @@
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+ul {
+    list-style-type:none;
+}
+.material-icons {
+    vertical-align: bottom;
+}
+
+.poor_folder {
+    font-style: italic;
+}
+
+.folder,.empty_folder {
+    cursor: pointer;
+}
+
+.folder:hover,.name:hover,.poor_folder:hover {
+    background-color: #f0f2e4;
+}
+
+.name i {
+    color: #BBBBBB;
+}
+
+.folder i {
+    color: #EABC0A;
+}
